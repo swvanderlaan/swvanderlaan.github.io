@@ -131,6 +131,15 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/post/my-hugo-2-github-setup/</loc>
+      <lastmod>2017-09-30T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/post/my-first-post/</loc>
       <lastmod>2017-09-30T00:00:00+02:00</lastmod>
     </url>
@@ -578,6 +587,16 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/tags/github/</loc>
+      <lastmod>2017-09-30T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/tags/gwas/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -600,6 +619,16 @@
     
       <loc>https://swvanderlaan.github.io/tags/high-throughput-imaging/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/hugo/</loc>
+      <lastmod>2017-09-30T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -660,6 +689,16 @@
     
       <loc>https://swvanderlaan.github.io/tags/mqtl/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/news/</loc>
+      <lastmod>2017-09-30T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
