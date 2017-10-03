@@ -14,6 +14,33 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/project/genetics/</loc>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/project/functional-genomics/</loc>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/project/other/</loc>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/publication/pmid_nopmidyet_wesseling_atherosclerosis_2017/</loc>
       <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     </url>
@@ -158,24 +185,6 @@
     
     <url>
     
-      <loc>https://swvanderlaan.github.io/project/genetics/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://swvanderlaan.github.io/project/functional-genomics/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://swvanderlaan.github.io/project/high-throughput-imaging/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -186,15 +195,6 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/project/mendelian-randomisation/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://swvanderlaan.github.io/project/other/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -439,7 +439,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/atherosclerosis/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -449,7 +449,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/cardiovascular/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -459,7 +459,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/cardiovascular-genetics/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -497,8 +497,18 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/tags/coding/</loc>
+      <lastmod>2017-10-03T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/tags/common-variant/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -518,7 +528,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/eqtl/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -528,7 +538,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/expression/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -538,7 +548,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/fine-mapping/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -558,7 +568,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/functional-genomics/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -568,7 +578,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/genetics/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -578,7 +588,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/genome-wide-association-study/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -598,7 +608,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/gwas/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -608,7 +618,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/haploinsufficiency/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -619,6 +629,16 @@
     
       <loc>https://swvanderlaan.github.io/tags/high-throughput-imaging/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/html/</loc>
+      <lastmod>2017-10-03T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -638,7 +658,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/loss-of-variant/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -649,16 +669,6 @@
     
       <loc>https://swvanderlaan.github.io/tags/machine-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://swvanderlaan.github.io/tags/me/</loc>
-      <lastmod>2017-09-30T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -678,7 +688,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/methylation/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -688,7 +698,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/mqtl/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -698,7 +708,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/news/</loc>
-      <lastmod>2017-10-03T00:00:00+02:00</lastmod>
+      <lastmod>2017-09-30T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -708,7 +718,17 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/other/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/pqtl/</loc>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -718,7 +738,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -728,7 +748,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/protein-truncating-variation/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -748,7 +768,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/quantitative-trait-locus/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -758,7 +778,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/rare-variant/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -768,7 +788,17 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/risk-factors/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/science/</loc>
+      <lastmod>2017-09-30T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
