@@ -1,7 +1,7 @@
 README
 ==============
 
-This readme will contain a log of changes as they are made in the future for my personal [page](https://swvanderlaan.github.io): **Functional Cardiovascular Genomics**".
+This readme will contain a log of changes as they are made in the future for my personal [page](https://swvanderlaan.github.io): **Van der Laan & Science**".
 
 ## Log
 * **2017-10-02** Initial setup.
