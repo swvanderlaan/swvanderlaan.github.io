@@ -296,8 +296,9 @@
 
 <h2 id="background">Background</h2>
 
-<p>Sometimes data is very skewed and contains a lot of &lsquo;zeros&rsquo; (or very small numbers approaching &lsquo;zero&rsquo;). Before analyses such data need normalisation to meet the assumptions of a statistical test (<a href="https://stats.stackexchange.com/questions/35591/normalization-vs-scaling" target="_blank">you can find more on transformation and normalisation here</a>). Usually people log-transform (<em>e.g.</em> natural log, or log<sub>2</sub>), the disadvantage is that you loose the &lsquo;zeros&rsquo;.
-In my case that is an issue, because the measurements made were properly done (no technical issues), so &lsquo;zero&rsquo; really represents &lsquo;zero&rsquo;. In other words: I <em>don&rsquo;t</em> want to loose them. Some years back a colleague of mine pointed me to *&lsquo;Box-Cox&rsquo; transformation** (<a href="http://blog.minitab.com/blog/applying-statistics-in-quality-projects/how-could-you-benefit-from-a-box-cox-transformation" target="_blank">you can find more on that here</a>), and this method is available in <code>R</code> via the <code>geoR</code> package. Hence, the reason for this post.</p>
+<p>Sometimes data is very skewed and contains a lot of &lsquo;zeros&rsquo; (or very small numbers approaching &lsquo;zero&rsquo;). Before analyses such data need normalisation to meet the assumptions of a statistical test (<a href="https://stats.stackexchange.com/questions/35591/normalization-vs-scaling" target="_blank">you can find more on transformation and normalisation here</a>). Usually people log-transform (<em>e.g.</em> natural log, or log<sub>2</sub>), the disadvantage is that you loose the &lsquo;zeros&rsquo;.</p>
+
+<p>In my case that is an issue, because the measurements made were properly done (no technical issues), so &lsquo;zero&rsquo; really represents &lsquo;zero&rsquo;. In other words: I <em>don&rsquo;t</em> want to loose them. Some years back a colleague of mine pointed me to *&lsquo;Box-Cox&rsquo; transformation** (<a href="http://blog.minitab.com/blog/applying-statistics-in-quality-projects/how-could-you-benefit-from-a-box-cox-transformation" target="_blank">you can find more on that here</a>), and this method is available in <code>R</code> via the <code>geoR</code> package. Hence, the reason for this post.</p>
 
 <p>The thing is: I use <code>brew</code> to install <code>R</code> and many other packages/libraries lacking on macOS, <em>e.g.</em> <code>wget</code>. For reasons I still don&rsquo;t get - but I also realize it&rsquo;s beyond my coding capabilities - <code>brew</code> does <em>not</em> normally install <code>R</code> <em>with</em> the <code>tcl-tk</code> package. And let <em>that</em> be the critical part you need for <code>geoR</code> and by extension the function <code>boxccoxfit</code> to work. After some googling I got some hints that led me to a (on the face of it) permanent solution; <a href="https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/15" target="_blank">the discussion on the <code>brew</code> website were critical</a>.</p>
 
@@ -315,126 +316,147 @@ In my case that is an issue, because the measurements made were properly done (n
 </ol>
 
 <blockquote>
-<p>HOMEBREW_VERSION: 1.5.2
-ORIGIN: <a href="https://github.com/Homebrew/brew" target="_blank">https://github.com/Homebrew/brew</a>
-HEAD: 60a30e966b7cece5bd4823dae3fb981ab85106ea
-Last commit: 13 days ago
-Core tap ORIGIN: <a href="https://github.com/Homebrew/homebrew-core" target="_blank">https://github.com/Homebrew/homebrew-core</a>
-Core tap HEAD: 8c1c4f86a269cb23d9d92008abf1a37eabb297b6
-Core tap last commit: 2 days ago
-HOMEBREW_PREFIX: /usr/local
-CPU: quad-core 64-bit skylake
-Homebrew Ruby: 2.3.3 =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby
-Clang: 9.0 build 900
-Git: 2.16.1 =&gt; /usr/local/bin/git
-Curl: 7.54.0 =&gt; /usr/bin/curl
-Perl: /usr/bin/perl
-Python: /usr/local/opt/python/libexec/bin/python =&gt; /usr/local/Cellar/python/2.7.14_2/Frameworks/Python.framework/Versions/2.7/bin/python2.7
-Ruby: /usr/bin/ruby =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby
-Java: 9.0.1
-macOS: 10.13.3-x86_64
-Xcode: N/A
-   <strong>&gt; CLT: 9.2.0.0.1.1510905681</strong>
-X11: 2.7.11 =&gt; /opt/X11</p>
+<p>HOMEBREW_VERSION: 1.5.2</br>
+ORIGIN: <a href="https://github.com/Homebrew/brew" target="_blank">https://github.com/Homebrew/brew</a></br>
+HEAD: 60a30e966b7cece5bd4823dae3fb981ab85106ea</br>
+Last commit: 13 days ago</br>
+Core tap ORIGIN: <a href="https://github.com/Homebrew/homebrew-core" target="_blank">https://github.com/Homebrew/homebrew-core</a></br>
+Core tap HEAD: 8c1c4f86a269cb23d9d92008abf1a37eabb297b6</br>
+Core tap last commit: 2 days ago</br>
+HOMEBREW_PREFIX: /usr/local</br>
+CPU: quad-core 64-bit skylake</br>
+Homebrew Ruby: 2.3.3 =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby</br>
+Clang: 9.0 build 900</br>
+Git: 2.16.1 =&gt; /usr/local/bin/git</br>
+Curl: 7.54.0 =&gt; /usr/bin/curl</br>
+Perl: /usr/bin/perl</br>
+Python: /usr/local/opt/python/libexec/bin/python =&gt; /usr/local/Cellar/python/2.7.14_2/Frameworks/Python.framework/Versions/2.7/bin/python2.7</br>
+Ruby: /usr/bin/ruby =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby</br>
+Java: 9.0.1</br>
+macOS: 10.13.3-x86_64</br>
+Xcode: N/A</br>
+** CLT: 9.2.0.0.1.1510905681**</br>
+X11: 2.7.11 =&gt; /opt/X11</br></p>
 </blockquote>
 
-<p>The bold printed line suggests that Command Line Tools should be installed.</p>
-
-<ol>
-<li>I than double checked if the path was really set, using the command <code>xcode-select -p</code>, which shows:
-&gt; /Library/Developer/CommandLineTools</li>
-<li>Also <code>gcc</code> is properly set. I checked this using <code>gcc --version</code>, which shows:
-&gt; Configured with: &ndash;prefix=/Library/Developer/CommandLineTools/usr &ndash;with-gxx-include-dir=/usr/include/c++/4.2.1
-&gt; Apple LLVM version 9.0.0 (clang-900.0.39.2)
-&gt; Target: x86_64-apple-darwin17.4.0
-&gt; Thread model: posix
-&gt; InstalledDir: /Library/Developer/CommandLineTools/usr/bin</li>
-<li>Now that I had confirmed the basics are present, I proceeded by re-installing <code>Xquartz</code>, <code>R</code> and <code>RStudio</code>. To make sure I get the <code>R</code> <em>with</em> <code>tcl-tk</code> I used the R version of @srfore. These are the subsequent commands.
-<code>brew cask reinstall xquartz</code>, re-instal <code>Xquartz</code>
-<code>brew reinstall -s sethrfore/homebrew-r-srf/r</code>, installed a edited version of <code>R</code>.
-<code>brew cask reinstall rstudio</code>, re-installe <code>Rstudio</code>.</li>
-<li>All seemed well, I double checked with <code>brew doctor</code>.
-&gt; Your system is ready to brew.</li>
-<li>Of course, for me, this all started with the need to use the function <code>boxcoxfit</code> from the <code>R</code> package <code>geoR</code> which is dependent on <code>tcl-tk</code>. So, now it was showtime and I started R:
-&gt; install.packages(&ldquo;geoR&rdquo;)
-&gt; Installing package into ‘/usr/local/lib/R/3.4/site-library’
-&gt; (as ‘lib’ is unspecified)
-&gt; &mdash; Please select a CRAN mirror for use in this session &mdash;
-&gt; Secure CRAN mirrors
-&gt;
-&gt;  1: 0-Cloud [https]                   2: Algeria [https]
-&gt;  3: Australia (Canberra) [https]      4: Australia (Melbourne 1) [https]
-&gt;  5: Australia (Melbourne 2) [https]   6: Australia (Perth) [https]
-&gt;  7: Austria [https]                   8: Belgium (Ghent) [https]
-&gt;  9: Brazil (PR) [https]              10: Brazil (RJ) [https]
-&gt; 11: Brazil (SP 1) [https]            12: Brazil (SP 2) [https]
-&gt; 13: Bulgaria [https]                 14: Chile 1 [https]
-&gt; 15: Chile 2 [https]                  16: China (Guangzhou) [https]
-&gt; 17: China (Lanzhou) [https]          18: China (Shanghai) [https]
-&gt; 19: Colombia (Cali) [https]          20: Czech Republic [https]
-&gt; 21: Denmark [https]                  22: East Asia [https]
-&gt; 23: Ecuador (Cuenca) [https]         24: Estonia [https]
-&gt; 25: France (Lyon 1) [https]          26: France (Lyon 2) [https]
-&gt; 27: France (Marseille) [https]       28: France (Montpellier) [https]
-&gt; 29: France (Paris 2) [https]         30: Germany (Erlangen) [https]
-&gt; 31: Germany (Göttingen) [https]      32: Germany (Münster) [https]
-&gt; 33: Greece [https]                   34: Iceland [https]
-&gt; 35: Indonesia (Jakarta) [https]      36: Ireland [https]
-&gt; 37: Italy (Padua) [https]            38: Japan (Tokyo) [https]
-&gt; 39: Japan (Yonezawa) [https]         40: Malaysia [https]
-&gt; 41: Mexico (Mexico City) [https]     42: Norway [https]
-&gt; 43: Philippines [https]              44: Serbia [https]
-&gt; 45: Spain (A Coruña) [https]         46: Spain (Madrid) [https]
-&gt; 47: Sweden [https]                   48: Switzerland [https]
-&gt; 49: Turkey (Denizli) [https]         50: Turkey (Mersin) [https]
-&gt; 51: UK (Bristol) [https]             52: UK (Cambridge) [https]
-&gt; 53: UK (London 1) [https]            54: USA (CA 1) [https]
-&gt; 55: USA (IA) [https]                 56: USA (KS) [https]
-&gt; 57: USA (MI 1) [https]               58: USA (NY) [https]
-&gt; 59: USA (OR) [https]                 60: USA (TN) [https]
-&gt; 61: USA (TX 1) [https]               62: Vietnam [https]
-&gt; 63: (other mirrors)
-&gt;
-&gt; Selection: 1
-&gt; trying URL &lsquo;<a href="https://cloud.r-project.org/src/contrib/geoR_1.7-5.2.tar.gz'" target="_blank">https://cloud.r-project.org/src/contrib/geoR_1.7-5.2.tar.gz'</a>
-&gt; Content type &lsquo;application/x-gzip&rsquo; length 421612 bytes (411 KB)
-&gt; ==================================================
-&gt; downloaded 411 KB
-&gt;
-&gt; * installing <em>source</em> package ‘geoR’ &hellip;
-&gt; ** package ‘geoR’ successfully unpacked and MD5 sums checked
-&gt; ** libs
-&gt; clang -I/usr/local/Cellar/r/3.4.3_1/lib/R/include -DNDEBUG   -I/usr/local/opt/gettext/include -I/usr/local/opt/readline/include -I/usr/local/include   -fPIC  -g -O2  -c geoR.c -o geoR.o
-&gt; clang -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/usr/local/Cellar/r/3.4.3_1/lib/R/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/readline/lib -L/usr/local/lib -o geoR.so geoR.o -L/usr/local/Cellar/r/3.4.3_1/lib/R/lib -lR -lintl -Wl,-framework -Wl,CoreFoundation
-&gt; installing to /usr/local/lib/R/3.4/site-library/geoR/libs
-&gt; ** R
-&gt; ** data
-&gt; *** moving datasets to lazyload DB
-&gt; ** inst
-&gt; ** preparing package for lazy loading
-&gt; ** help
-&gt; *** installing help indices
-&gt; ** building package indices
-&gt; ** testing if installed package can be loaded
-&gt; * DONE (geoR)
-&gt;
-&gt; The downloaded source packages are in
-&gt;    ‘/private/var/folders/kh/0s66cjl5487fg_fhwgxqd2340000gn/T/RtmpHJHtGf/downloaded_packages’
-<br /></li>
-</ol>
-
-<p>And loading <code>geoR</code> was not an issue:</p>
+<p>The bold printed line suggests that <code>Command Line Tools</code> should be installed.</br></br>
+3. I than double checked if the path was really set, using the command <code>xcode-select -p</code>, which shows:</p>
 
 <blockquote>
-<h2 id="library-geor">library(&ldquo;geoR&rdquo;)</h2>
-
-<p>Analysis of Geostatistical Data
- For an Introduction to geoR go to <a href="http://www.leg.ufpr.br/geoR" target="_blank">http://www.leg.ufpr.br/geoR</a></p>
-
-<h2 id="geor-version-1-7-5-2-built-on-2016-05-02-is-now-loaded">geoR version 1.7-5.2 (built on 2016-05-02) is now loaded</h2>
+<p>/Library/Developer/CommandLineTools</p>
 </blockquote>
 
-<p>And now <code>boxcoxfit()</code> is available. I&rsquo;m all set to normalise my data using <code>Box-Cox</code> transformations</p>
+<p></br>
+4. Also <code>gcc</code> is properly set. I checked this using <code>gcc --version</code>, which shows:</p>
+
+<blockquote>
+<p>Configured with: &ndash;prefix=/Library/Developer/CommandLineTools/usr &ndash;with-gxx-include-dir=/usr/include/c++/4.2.1</br>
+Apple LLVM version 9.0.0 (clang-900.0.39.2)</br>
+Target: x86_64-apple-darwin17.4.0</br>
+Thread model: posix</br>
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin</p>
+</blockquote>
+
+<p></br>
+5. Now that I had confirmed the basics are present, I proceeded by re-installing <code>Xquartz</code>, <code>R</code> and <code>RStudio</code>. To make sure I get the <code>R</code> <em>with</em> <code>tcl-tk</code> I used the R version of <a href="https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/15" target="_blank">@srfore</a>. These are the subsequent commands.</p>
+
+<ul>
+<li><code>brew cask reinstall xquartz</code>, re-install <code>Xquartz</code>.</li>
+<li><code>brew reinstall -s sethrfore/homebrew-r-srf/r</code>, installed a edited version of <code>R</code>.</li>
+<li><code>brew cask reinstall rstudio</code>, re-installe <code>Rstudio</code>.
+<br /></li>
+</ul>
+
+<p></br>
+6. All seemed well, I double checked with <code>brew doctor</code>.</p>
+
+<blockquote>
+<p>Your system is ready to brew.</p>
+</blockquote>
+
+<p></br>
+7. Of course, for me, this all started with the need to use the function <code>boxcoxfit</code> from the <code>R</code> package <code>geoR</code> which is dependent on <code>tcl-tk</code>. So, now it was showtime and I started R:</p>
+
+<blockquote>
+<p>install.packages(&ldquo;geoR&rdquo;)</br>
+Installing package into ‘/usr/local/lib/R/3.4/site-library’</br>
+(as ‘lib’ is unspecified)</br>
+&mdash; Please select a CRAN mirror for use in this session &mdash;</br>
+Secure CRAN mirrors</br></p>
+
+<p>1: 0-Cloud [https]                   2: Algeria [https]</br>
+ 3: Australia (Canberra) [https]      4: Australia (Melbourne 1) [https]</br>
+ 5: Australia (Melbourne 2) [https]   6: Australia (Perth) [https]</br>
+ 7: Austria [https]                   8: Belgium (Ghent) [https]</br>
+ 9: Brazil (PR) [https]              10: Brazil (RJ) [https]</br>
+11: Brazil (SP 1) [https]            12: Brazil (SP 2) [https]</br>
+13: Bulgaria [https]                 14: Chile 1 [https]</br>
+15: Chile 2 [https]                  16: China (Guangzhou) [https]</br>
+17: China (Lanzhou) [https]          18: China (Shanghai) [https]</br>
+19: Colombia (Cali) [https]          20: Czech Republic [https]</br>
+21: Denmark [https]                  22: East Asia [https]</br>
+23: Ecuador (Cuenca) [https]         24: Estonia [https]</br>
+25: France (Lyon 1) [https]          26: France (Lyon 2) [https]</br>
+27: France (Marseille) [https]       28: France (Montpellier) [https]</br>
+29: France (Paris 2) [https]         30: Germany (Erlangen) [https]</br>
+31: Germany (Göttingen) [https]      32: Germany (Münster) [https]</br>
+33: Greece [https]                   34: Iceland [https]</br>
+35: Indonesia (Jakarta) [https]      36: Ireland [https]</br>
+37: Italy (Padua) [https]            38: Japan (Tokyo) [https]</br>
+39: Japan (Yonezawa) [https]         40: Malaysia [https]</br>
+41: Mexico (Mexico City) [https]     42: Norway [https]</br>
+43: Philippines [https]              44: Serbia [https]</br>
+45: Spain (A Coruña) [https]         46: Spain (Madrid) [https]</br>
+47: Sweden [https]                   48: Switzerland [https]</br>
+49: Turkey (Denizli) [https]         50: Turkey (Mersin) [https]</br>
+51: UK (Bristol) [https]             52: UK (Cambridge) [https]</br>
+53: UK (London 1) [https]            54: USA (CA 1) [https]</br>
+55: USA (IA) [https]                 56: USA (KS) [https]</br>
+57: USA (MI 1) [https]               58: USA (NY) [https]</br>
+59: USA (OR) [https]                 60: USA (TN) [https]</br>
+61: USA (TX 1) [https]               62: Vietnam [https]</br>
+63: (other mirrors)</p>
+
+<p>Selection: 1</br>
+trying URL &lsquo;<a href="https://cloud.r-project.org/src/contrib/geoR_1.7-5.2.tar.gz'" target="_blank">https://cloud.r-project.org/src/contrib/geoR_1.7-5.2.tar.gz'</a></br>
+Content type &lsquo;application/x-gzip&rsquo; length 421612 bytes (411 KB)</br>
+==================================================</br>
+downloaded 411 KB</br></p>
+
+<p>* installing <em>source</em> package ‘geoR’ &hellip;</br>
+** package ‘geoR’ successfully unpacked and MD5 sums checked</br>
+** libs</br>
+clang -I/usr/local/Cellar/r/3.4.3_1/lib/R/include -DNDEBUG   -I/usr/local/opt/gettext/include -I/usr/local/opt/readline/include -I/usr/local/include   -fPIC  -g -O2  -c geoR.c -o geoR.o</br>
+clang -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/usr/local/Cellar/r/3.4.3_1/lib/R/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/readline/lib -L/usr/local/lib -o geoR.so geoR.o -L/usr/local/Cellar/r/3.4.3_1/lib/R/lib -lR -lintl -Wl,-framework -Wl,CoreFoundation</br>
+installing to /usr/local/lib/R/3.4/site-library/geoR/libs</br>
+** R</br>
+** data</br>
+*** moving datasets to lazyload DB</br>
+** inst</br>
+** preparing package for lazy loading</br>
+** help</br>
+*** installing help indices</br>
+** building package indices</br>
+** testing if installed package can be loaded</br>
+* DONE (geoR)</br>
+</br>
+The downloaded source packages are in</br>
+   ‘/private/var/folders/kh/0s66cjl5487fg_fhwgxqd2340000gn/T/RtmpHJHtGf/downloaded_packages’</br></p>
+</blockquote>
+
+<p></br>
+   And loading <code>geoR</code> was not an issue:</p>
+
+<blockquote>
+<p>library(&ldquo;geoR&rdquo;)</br>
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</br>
+ Analysis of Geostatistical Data</br>
+ For an Introduction to geoR go to <a href="http://www.leg.ufpr.br/geoR" target="_blank">http://www.leg.ufpr.br/geoR</a></br>
+ geoR version 1.7-5.2 (built on 2016-05-02) is now loaded</br>
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</br></p>
+</blockquote>
+
+<p>So, finally, I have <code>boxcoxfit()</code> available. I&rsquo;m all set to normalise my data using <code>Box-Cox</code> transformations.</p>
 
 <p></br></br></p>
 
@@ -453,6 +475,8 @@ X11: 2.7.11 =&gt; /opt/X11</p>
   <h3>Related</h3>
   <ul>
     
+    <li><a href="/post/setting-up-my-mac-for-science/">How I setup my Mac to do Science in 2018</a></li>
+    
     <li><a href="/post/my-hugo-2-github-setup/">How I maintain my Hugo-based website on GitHub</a></li>
     
   </ul>
@@ -463,8 +487,8 @@ X11: 2.7.11 =&gt; /opt/X11</p>
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://swvanderlaan.github.io/post/my-hugo-2-github-setup/"><span
-      aria-hidden="true">&larr;</span> How I maintain my Hugo-based website on GitHub</a></li>
+    <li class="previous"><a href="https://swvanderlaan.github.io/post/setting-up-my-mac-for-science/"><span
+      aria-hidden="true">&larr;</span> How I setup my Mac to do Science in 2018</a></li>
     
 
     
