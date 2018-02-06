@@ -1,6 +1,7 @@
 
 
 
+  
 /*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
@@ -99,14 +100,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: <no value>;
+  color: #3f51b5;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: <no value>;
+  color: #3f51b5;
 }
 
 img,
@@ -213,7 +214,7 @@ blockquote p:last-child {
 }
 
 .home-section {
-  background-color: <no value>;
+  background-color: rgb(255, 255, 255);
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -224,7 +225,7 @@ blockquote p:last-child {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: <no value>;
+  background-color: rgb(247, 247, 247);
 }
 
 @media screen and (max-width: 768px) {
@@ -452,7 +453,7 @@ article {
 }
 
 .article-metadata a:hover {
-  color: <no value>;
+  color: #3f51b5;
 }
 
 .article-list-item {
@@ -759,8 +760,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: <no value> !important;
-  background: <no value> !important;
+  border-color: #3f51b5 !important;
+  background: #3f51b5 !important;
 }
 
 .btn-primary:hover,
@@ -768,7 +769,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: <no value> !important;
+  background: #3f51b5 !important;
 }
 
 /*************************************************
@@ -791,12 +792,12 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: <no value> !important;
+  background-color: #002984 !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: <no value> !important;
+  background-color: #757de8 !important;
 }
 
 /*************************************************
@@ -810,12 +811,12 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: <no value> !important;
-  border-color: <no value> !important;
+  color: #3f51b5 !important;
+  border-color: #3f51b5 !important;
 }
 
 .btn-primary.btn-outline:focus {
-  color: <no value> !important;
+  color: #3f51b5 !important;
 }
 
 .btn-primary.btn-outline:active {
@@ -855,7 +856,7 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: <no value>;
+  background: #3f51b5;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -878,20 +879,20 @@ nav#navbar-main li {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: <no value>;
+  color: #fff;
   font-weight: 600;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-  color: <no value>;
+  color: #8c9eff;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: <no value>;
+  color: #8c9eff;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -905,11 +906,11 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: <no value> !important;
+  background-color: #fff !important;
 }
 
 .dropdown-menu {
-  background-color: <no value> !important;
+  background-color: #3f51b5 !important;
 }
 
 .dropdown-menu > li > a {
@@ -918,23 +919,23 @@ nav#navbar-main li {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: <no value>;
+  color: #fff;
   white-space: nowrap;
 }
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: <no value>;
+  color: #8c9eff;
   text-decoration: none;
-  background-color: <no value>;
+  background-color: #3f51b5;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  color: <no value>;
+  color: #3f51b5;
   text-decoration: none;
-  background-color: <no value>;
+  background-color: #8c9eff;
   outline: 0;
 }
 
@@ -942,20 +943,20 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:visited {
-  color: <no value> !important;
-  background-color: <no value> !important;
+  color: #fff !important;
+  background-color: #3f51b5 !important;
 }
 
 .navbar-default .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2em;
-  color: <no value>;
+  color: #fff;
 }
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-  color: <no value>;
+  color: #fff;
   background-color: transparent;
 }
 
@@ -1016,7 +1017,7 @@ nav#navbar-main li {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: <no value>;
+    color: #fff;
     white-space: nowrap;
   }
 
@@ -1033,7 +1034,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     line-height: 20px;
-    color: <no value>;
+    color: #fff;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -1045,7 +1046,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: <no value>;
+    color: #8c9eff;
     background-color: transparent;
   }
 
