@@ -205,7 +205,7 @@
 
   
   <span class="article-reading-time">
-    6 min read
+    5 min read
   </span>
   
 
@@ -305,32 +305,42 @@ In my case that is an issue, because the measurements made were properly done (n
 
 <ol>
 <li>I made sure I have tcl-tk installed via <code>brew</code>.
-<code>brew install tcl-tk</code>
-I made sure <code>tcl-tk</code> was in my path: <code>echo 'export PATH=&quot;/usr/local/opt/tcl-tk/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile</code>.
-The command <code>wish</code> also confirmed this.</li>
-<li>I also made sure I had installed Command Line Tools properly - there were some updates to High Sierra in the last week, and based on the discussions above I feared it might had to re-installed. I didn&rsquo;t have to, but here&rsquo;s how I checked that. The command <code>brew config</code> shows:
-&gt; HOMEBREW_VERSION: 1.5.2
-&gt; ORIGIN: <a href="https://github.com/Homebrew/brew" target="_blank">https://github.com/Homebrew/brew</a>
-&gt; HEAD: 60a30e966b7cece5bd4823dae3fb981ab85106ea
-&gt; Last commit: 13 days ago
-&gt; Core tap ORIGIN: <a href="https://github.com/Homebrew/homebrew-core" target="_blank">https://github.com/Homebrew/homebrew-core</a>
-&gt; Core tap HEAD: 8c1c4f86a269cb23d9d92008abf1a37eabb297b6
-&gt; Core tap last commit: 2 days ago
-&gt; HOMEBREW_PREFIX: /usr/local
-&gt; CPU: quad-core 64-bit skylake
-&gt; Homebrew Ruby: 2.3.3 =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby
-&gt; Clang: 9.0 build 900
-&gt; Git: 2.16.1 =&gt; /usr/local/bin/git
-&gt; Curl: 7.54.0 =&gt; /usr/bin/curl
-&gt; Perl: /usr/bin/perl
-&gt; Python: /usr/local/opt/python/libexec/bin/python =&gt; /usr/local/Cellar/python/2.7.14_2/Frameworks/Python.framework/Versions/2.7/bin/python2.7
-&gt; Ruby: /usr/bin/ruby =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby
-&gt; Java: 9.0.1
-&gt; macOS: 10.13.3-x86_64
-&gt; Xcode: N/A
-<strong>&gt; CLT: 9.2.0.0.1.1510905681</strong>
-&gt; X11: 2.7.11 =&gt; /opt/X11
-The bold printed line suggests that Command Line Tools should be installed.</li>
+
+<ul>
+<li><code>brew install tcl-tk</code></li>
+<li>I made sure <code>tcl-tk</code> was in my path: <code>echo 'export PATH=&quot;/usr/local/opt/tcl-tk/bin:$PATH&quot;' &gt;&gt; ~/.bash_profile</code>.</li>
+<li>The command <code>wish</code> also confirmed this.</li>
+</ul></li>
+<li>I also made sure I had installed Command Line Tools properly - there were some updates to High Sierra in the last week, and based on the discussions above I feared it might had to re-installed. I didn&rsquo;t have to, but here&rsquo;s how I checked that. The command <code>brew config</code> shows:</li>
+</ol>
+
+<blockquote>
+<p>HOMEBREW_VERSION: 1.5.2
+ORIGIN: <a href="https://github.com/Homebrew/brew" target="_blank">https://github.com/Homebrew/brew</a>
+HEAD: 60a30e966b7cece5bd4823dae3fb981ab85106ea
+Last commit: 13 days ago
+Core tap ORIGIN: <a href="https://github.com/Homebrew/homebrew-core" target="_blank">https://github.com/Homebrew/homebrew-core</a>
+Core tap HEAD: 8c1c4f86a269cb23d9d92008abf1a37eabb297b6
+Core tap last commit: 2 days ago
+HOMEBREW_PREFIX: /usr/local
+CPU: quad-core 64-bit skylake
+Homebrew Ruby: 2.3.3 =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby
+Clang: 9.0 build 900
+Git: 2.16.1 =&gt; /usr/local/bin/git
+Curl: 7.54.0 =&gt; /usr/bin/curl
+Perl: /usr/bin/perl
+Python: /usr/local/opt/python/libexec/bin/python =&gt; /usr/local/Cellar/python/2.7.14_2/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+Ruby: /usr/bin/ruby =&gt; /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby
+Java: 9.0.1
+macOS: 10.13.3-x86_64
+Xcode: N/A
+   <strong>&gt; CLT: 9.2.0.0.1.1510905681</strong>
+X11: 2.7.11 =&gt; /opt/X11</p>
+</blockquote>
+
+<p>The bold printed line suggests that Command Line Tools should be installed.</p>
+
+<ol>
 <li>I than double checked if the path was really set, using the command <code>xcode-select -p</code>, which shows:
 &gt; /Library/Developer/CommandLineTools</li>
 <li>Also <code>gcc</code> is properly set. I checked this using <code>gcc --version</code>, which shows:
