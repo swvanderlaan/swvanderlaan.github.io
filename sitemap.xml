@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/publication/pmid_29531354_megastroke_nat_genet_2018/</loc>
       <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     </url>
@@ -534,7 +543,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/coding/</loc>
-      <lastmod>2018-02-06T00:00:00+01:00</lastmod>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -664,7 +673,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/homebrew/</loc>
-      <lastmod>2018-02-06T00:00:00+01:00</lastmod>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -703,8 +712,18 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/tags/m3vcf/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/tags/mac/</loc>
-      <lastmod>2018-02-06T00:00:00+01:00</lastmod>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -724,7 +743,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/macos/</loc>
-      <lastmod>2018-02-06T00:00:00+01:00</lastmod>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -745,6 +764,16 @@
     
       <loc>https://swvanderlaan.github.io/tags/methylation/</loc>
       <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/minimac3/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -775,6 +804,46 @@
     
       <loc>https://swvanderlaan.github.io/tags/other/</loc>
       <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/oxford-format/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/plink/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/plink-format/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/plink2/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -815,6 +884,16 @@
     
       <loc>https://swvanderlaan.github.io/publication_types/</loc>
       <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/qctool/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -893,6 +972,16 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/tags/snptest/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -915,6 +1004,16 @@
     
       <loc>https://swvanderlaan.github.io/</loc>
       <lastmod>2018-03-20T16:53:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/vcf/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     

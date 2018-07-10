@@ -69,7 +69,7 @@
     <item>
       <title>Coding</title>
       <link>https://swvanderlaan.github.io/tags/coding/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/coding/</guid>
       <description></description>
@@ -186,7 +186,7 @@
     <item>
       <title>Homebrew</title>
       <link>https://swvanderlaan.github.io/tags/homebrew/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/homebrew/</guid>
       <description></description>
@@ -220,9 +220,18 @@
     </item>
     
     <item>
+      <title>M3vcf</title>
+      <link>https://swvanderlaan.github.io/tags/m3vcf/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/m3vcf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mac</title>
       <link>https://swvanderlaan.github.io/tags/mac/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/mac/</guid>
       <description></description>
@@ -240,7 +249,7 @@
     <item>
       <title>Macos</title>
       <link>https://swvanderlaan.github.io/tags/macos/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/macos/</guid>
       <description></description>
@@ -261,6 +270,15 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/methylation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimac3</title>
+      <link>https://swvanderlaan.github.io/tags/minimac3/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/minimac3/</guid>
       <description></description>
     </item>
     
@@ -292,6 +310,42 @@
     </item>
     
     <item>
+      <title>Oxford Format</title>
+      <link>https://swvanderlaan.github.io/tags/oxford-format/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/oxford-format/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plink</title>
+      <link>https://swvanderlaan.github.io/tags/plink/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/plink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plink Format</title>
+      <link>https://swvanderlaan.github.io/tags/plink-format/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/plink-format/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plink2</title>
+      <link>https://swvanderlaan.github.io/tags/plink2/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/plink2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pqtl</title>
       <link>https://swvanderlaan.github.io/tags/pqtl/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
@@ -306,6 +360,15 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/protein-truncating-variation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qctool</title>
+      <link>https://swvanderlaan.github.io/tags/qctool/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/qctool/</guid>
       <description></description>
     </item>
     
@@ -373,11 +436,29 @@
     </item>
     
     <item>
+      <title>Snptest</title>
+      <link>https://swvanderlaan.github.io/tags/snptest/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/snptest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tcl Tk</title>
       <link>https://swvanderlaan.github.io/tags/tcl-tk/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/tcl-tk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcf</title>
+      <link>https://swvanderlaan.github.io/tags/vcf/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/vcf/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plink Format on Van der Laan &amp; Science</title>
+    <link>https://swvanderlaan.github.io/tags/plink-format/</link>
+    <description>Recent content in Plink Format on Van der Laan &amp; Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://swvanderlaan.github.io/tags/plink-format/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tackling post-Michigan Imputation Server troubles</title>
+      <link>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</guid>
+      <description>Background [More information to follow]
+Step-by-step  [More information to follow]   2. [More information to follow]
+ 3. [More information to follow]
+ 4. [More information to follow]
+ 5. [More information to follow]
+ 6. [More information to follow]
+ 7. [More information to follow]
+
+&amp;copy; Copyright. 1979-2018 Sander W. van der Laan. Released under the MIT license.</description>
+    </item>
+    
+  </channel>
+</rss>
