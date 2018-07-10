@@ -198,8 +198,10 @@
 
   <span class="article-date">
     
+        Last updated on
+    
     <time datetime="2018-02-06 00:00:00 &#43;0100 CET" itemprop="datePublished">
-      Feb 6, 2018
+      Jul 10, 2018
     </time>
   </span>
 
@@ -341,8 +343,10 @@
 
 <ul>
 <li><code>brew install coreutils gnu-sed wget rename git gd libharu git imagemagick lzo hdf5 bison</code>, these are needed for <a href="https://swvanderlaan.github.io/slideToolkit/" target="_blank"><strong>slideToolkit</strong></a>, but also contain some general very useful libraries.</li>
+<li><code>brew install libxml2 gdal</code>, for some R packages to work.</li>
 <li><code>brew install mariadb-connector-c</code>, for some R packages that require <code>RMySQL</code> to work.</li>
-<li><code>brew install findutils --with-default-names</code>.
+<li><code>brew install findutils</code>.</li>
+<li><code>brew install samtools bcftools vcftools</code>, very easy install of these useful programs that are essential for genetic studies nowadays.
 <br /></li>
 </ul></li>
 
@@ -376,7 +380,6 @@
 <li><p>So now, finally, I&rsquo;m ready to install <code>R</code>.</p>
 
 <ul>
-<li><code>brew tap homebrew/science</code></li>
 <li><code>brew install r</code> - I needed <code>R</code> installed <em>with</em> <code>tcl-tk</code>, so I figured out how to do that in <a href="https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/" target="_blank">an other post</a>. You might not need that.</li>
 <li><code>brew cask install rstudio</code> - because I dislike the terminal <code>R</code>.</li>
 </ul></li>
@@ -388,7 +391,7 @@
 
 <hr />
 
-<p><sub><sup>&copy; Copyright. 1979-2017 Sander W. van der Laan. Released under <a href="http://opensource.org/licenses/MIT" target="_blank">the MIT license</a>.</sup></sub></p>
+<p><sub><sup>&copy; Copyright. 1979-2018 Sander W. van der Laan. Released under <a href="http://opensource.org/licenses/MIT" target="_blank">the MIT license</a>.</sup></sub></p>
 
     </div>
   </div>
