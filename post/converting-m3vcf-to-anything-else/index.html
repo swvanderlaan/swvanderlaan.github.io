@@ -323,13 +323,9 @@ Many other programs, such <a href="https://choishingwan.github.io/PRSice/" targe
 <h3 id="step-by-step">Step-by-step</h3>
 
 <ol>
-<li>First thing you need to download is <code>PLINK 2 alpha</code> (so <em>not</em> v1.9!), which can be found <a href="https://www.cog-genomics.org/plink/2.0/" target="_blank">here</a>. In my case, being on macOS High Sierra:</li>
+<li>First thing you need to download is <code>PLINK 2 alpha</code> (so <em>not</em> v1.9!), which can be found <a href="https://www.cog-genomics.org/plink/2.0/" target="_blank">here</a>. In my case, being on macOS High Sierra:
+<br /></li>
 </ol>
-
-<p><code>mkdir -v ~/bin</code> <br/>
-   <code>cd ~/bin</code> <br/>
-   <code>wget http://s3.amazonaws.com/plink2-assets/plink2_mac_20180709.zip</code> <br/>
-   <code>unzip plink2_mac_20180709.zip</code> <br/></p>
 
 <pre><code>   mkdir -v ~/bin
    cd ~/bin
@@ -360,7 +356,12 @@ Many other programs, such <a href="https://choishingwan.github.io/PRSice/" targe
 
 <p>The alternative is to use <code>PLINK 2 alpha</code>. In my case processing all 22 autosomal chromosomes would be done with this command:</p>
 
-<p><code>for i in $(seq 1 22); do plink2alpha --vcf cohort1.1kgp3.chr${i}.dose.vcf.gz dosage=GP --export oxford --out cohort1.1kgp3.chr${i}; done</code></p>
+<pre><code>   for i in $(seq 1 22); do 
+   	plink2alpha --vcf cohort1.1kgp3.chr${i}.dose.vcf.gz dosage=GP --export oxford --out cohort1.1kgp3.chr${i}; 
+   done
+</code></pre>
+
+<p></br></p>
 
 <p>To produce <code>.gen</code> and accompanying <code>.sample</code> files with genotype probabilities (tagged by <em>GP</em>) it is critically to include the flag <code>dosage=GP</code>.</p>
 
@@ -383,9 +384,9 @@ Many other programs, such <a href="https://choishingwan.github.io/PRSice/" targe
   <h3>Related</h3>
   <ul>
     
-    <li><a href="/post/getting-r-with-tcl-tk-on-my-mac/">How I got R with tcl-tk on my Mac</a></li>
-    
     <li><a href="/post/setting-up-my-mac-for-science/">How I setup my Mac to do Science in 2018</a></li>
+    
+    <li><a href="/post/getting-r-with-tcl-tk-on-my-mac/">How I got R with tcl-tk on my Mac</a></li>
     
     <li><a href="/post/my-hugo-2-github-setup/">How I maintain my Hugo-based website on GitHub</a></li>
     
