@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstudio on Van der Laan &amp; Science</title>
+    <link>https://swvanderlaan.github.io/tags/rstudio/</link>
+    <description>Recent content in Rstudio on Van der Laan &amp; Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
+    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://swvanderlaan.github.io/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I got R with tcl-tk on my Mac</title>
+      <link>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</guid>
+      <description>Background Sometimes data is very skewed and contains a lot of &amp;lsquo;zeros&amp;rsquo; (or very small numbers approaching &amp;lsquo;zero&amp;rsquo;). Before analyses such data need normalisation to meet the assumptions of a statistical test (you can find more on transformation and normalisation here). Usually people log-transform (e.g. natural log, or log2), the disadvantage is that you loose the &amp;lsquo;zeros&amp;rsquo;.
+In my case that is an issue, because the measurements made were properly done (no technical issues), so &amp;lsquo;zero&amp;rsquo; really represents &amp;lsquo;zero&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>How I setup my Mac to do Science in 2018</title>
+      <link>https://swvanderlaan.github.io/post/setting-up-my-mac-for-science/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/setting-up-my-mac-for-science/</guid>
+      <description>Background I prefer to use brew to install the &amp;lsquo;missing&amp;rsquo; libraries on macOS that come in handy, like weget, or imagemagick, or rename. In addition, I work on the analyses of histological slides, and for that I use slideToolkit which also requires brew on macOS.
+So, I thought, &amp;ldquo;might as well go full monty&amp;rdquo; and install R and RStudio using brew. This provides me with a powerful method to control many packages/libraries that are needed for macOS and at the same time creates a very clean R environment on my Mac.</description>
+    </item>
+    
+  </channel>
+</rss>

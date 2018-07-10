@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rare Variant on Van der Laan &amp; Science</title>
+    <link>https://swvanderlaan.github.io/tags/rare-variant/</link>
+    <description>Recent content in Rare Variant on Van der Laan &amp; Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swvanderlaan.github.io/tags/rare-variant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mendelian randomisation</title>
+      <link>https://swvanderlaan.github.io/project/mendelian-randomisation/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/mendelian-randomisation/</guid>
+      <description>[More information to follow]
+Mendel&amp;rsquo;s Second Law, the law of independent assortment, underlies the principle of Mendelian randomisation (MR) which make use of the inherent properties of the human genome to enable causal inference for a (biomarker))[https://www.bmj.com/content/330/7499/1076]. The invariant nature of the genome, and the random distribution of alleles from parents to offspring at the time of conception (Mendel&amp;rsquo;s Second Law), imply that the genetic information, is not influenced by disease status or the presence of risk factors (reverse causality); therefore it should be free from confounding.</description>
+    </item>
+    
+    <item>
+      <title>Cardiovascular genetics</title>
+      <link>https://swvanderlaan.github.io/project/genetics/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/project/genetics/</guid>
+      <description>[More information to follow]</description>
+    </item>
+    
+  </channel>
+</rss>
