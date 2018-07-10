@@ -205,7 +205,7 @@
 
   
   <span class="article-reading-time">
-    1 min read
+    3 min read
   </span>
   
 
@@ -311,31 +311,53 @@
 
 <h2 id="background">Background</h2>
 
-<p>[More information to follow]</p>
+<p>When meta-analysing many genome-wide association studies a lack of overlap [in terms of variants] between genotyping platforms <a href="https://academic-oup-com/hmg/article/17/R2/R122/2527210" target="_blank">lowers power</a>. However, <a href="https://www.nature.com/articles/nrg2796" target="_blank">imputation</a> of missing genotypes, i.e. untyped across all individuals or missing in a few, using <a href="https://www.nature.com/articles/nature02168" target="_blank">HapMap 2</a>, <a href="https://www.nature.com/articles/nature09534" target="_blank">1000G</a>, <a href="https://www.nature.com/articles/ng.3643" target="_blank">Haplotype Reference Consortium (HRC)</a>, or <a href="https://www.nature.com/articles/ng.3021" target="_blank">Genome of the Netherlands (GoNL5)</a> as reference ensures &gt;99% overlap and significantly increases power.</p>
+
+<p>As cohort sizes increase, the latest development is <a href="https://www.nature.com/articles/ng.3656" target="_blank">cloud-based imputation</a> using phased data from 1000G phase 3 or HRC as a reference, such as available at the <a href="https://www.nature.com/articles/ng.3679" target="_blank">Michigan Imputation Server</a>. Within a matters of hours - not taking the queuing into account - anyone can easily impute against high quality reference producing community standardised output files. The backbone is an updated version of Minimac (<a href="https://www.nature.com/articles/ng.3656" target="_blank">Minimac3</a>) and the introduction of a new VCF-like file-format which significantly reduces the (zipped) file sizes. While this file-format is in principle VCF-compatible (v4.2+), in reality the user would want to have <a href="http://www.stats.ox.ac.uk/~marchini/software/gwas/file_format.html" target="_blank">Oxford-format</a> or <a href="https://www.cog-genomics.org/plink/1.9/input#bed" target="_blank">PLINK-format</a> files, which can be used with <a href="https://mathgen.stats.ox.ac.uk/genetics_software/snptest/snptest.html" target="_blank">SNPTEST 2.5+</a> or <a href="https://www.cog-genomics.org/plink/1.9" target="_blank">PLINK v1.9 beta+</a>, respectively. <br/>
+Many other programs, such <a href="https://choishingwan.github.io/PRSice/" target="_blank">PRSice</a> or <a href="https://github.com/bvilhjal/ldpred" target="_blank">LDPred</a>, also expect Oxford- or PLINK-formatted files.</p>
+
+<p>So, you too, might want to convert. :-)</p>
 
 <h3 id="step-by-step">Step-by-step</h3>
 
 <ol>
-<li>[More information to follow]</li>
+<li>First thing you need to download is <code>PLINK 2 alpha</code> (so <em>not</em> v1.9!), which can be found <a href="https://www.cog-genomics.org/plink/2.0/" target="_blank">here</a>. In my case, being on macOS High Sierra:</li>
 </ol>
 
-<p></br>
-2. [More information to follow]</p>
+<p>````
+   mkdir -v ~/bin
+   cd ~/bin
+   wget <a href="http://s3.amazonaws.com/plink2-assets/plink2_mac_20180709.zip" target="_blank">http://s3.amazonaws.com/plink2-assets/plink2_mac_20180709.zip</a>
+   unzip plink2_mac_20180709.zip</p>
 
-<p></br>
-3. [More information to follow]</p>
+<pre><code>
+   &lt;/br&gt;
+   
+2. The M3VCF is VCF-like, so sligtly different from what you would expect. Here is the `head` of part of one of mine:
 
-<p></br>
-4. [More information to follow]</p>
+   &gt; ##fileformat=VCFv4.2
+   &gt; ##FORMAT=&lt;ID=GT,Type=String,Number=1,Description=&quot;Genotype&quot;&gt;
+   &gt; ##FORMAT=&lt;ID=DS,Type=Float,Number=1,Description=&quot;Estimated Alternate Allele Dosage : [P(0/1)+2*P(1/1)]&quot;&gt;
+   &gt; ##FORMAT=&lt;ID=GP,Type=Float,Number=3,Description=&quot;Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 &quot;&gt;
+   &gt; #CHROM POS ID REF ALT QUAL FILTER INFO FORMAT SAMPLE_1
+   &gt; 6 89961 6:89961,. G A . . . DS:GP:GT 0:1,0,0:0|0
+   &gt; 6 100100 6:100100,. G T . . . DS:GP:GT 0:1,0,0:0|0
+   &gt; 6 100112 6:100112,. C A . . . DS:GP:GT 0:1,0,0:0|0
+   &gt; 6 145579 6:145579,. G A . . . DS:GP:GT 0:1,0,0:0|0
+   &gt; 6 147651 6:147651,. A C . . . DS:GP:GT 0.001:0.999,0.001,0:0|0
 
-<p></br>
-5. [More information to follow]</p>
+   Because of the slightly different file-format, a datamanagement-program like [QCTOOL]() can _read_ and even _merge_ files like this, but converting to another format (be it `.bgen`, `.gen`, or `.vcf`) it will not.
+   
+   The alternative is to use `PLINK 2 alpha`. In my case processing all 22 autosomal chromosomes would be done with this command:
+   
+</code></pre>
 
-<p></br>
-6. [More information to follow]</p>
+<p>for i in $(seq 1 22); do plink2alpha &ndash;vcf cohort1.1kgp3.chr${i}.dose.vcf.gz dosage=GP &ndash;export oxford &ndash;out cohort1.1kgp3.chr${i}; done
+   ```</p>
 
-<p></br>
-7. [More information to follow]</p>
+<p>To produce <code>.gen</code> and accompanying <code>.sample</code> files with genotype probabilities (tagged by <em>GP</em>) it is critically to include the flag <code>dosage=GP</code>.</p>
+
+<p>And that&rsquo;s it, after some hours, depending on your system and the size of the cohort, VCF-files are converted to your favourite file-format-flavour.</p>
 
 <p></br></br></p>
 
@@ -354,9 +376,9 @@
   <h3>Related</h3>
   <ul>
     
-    <li><a href="/post/setting-up-my-mac-for-science/">How I setup my Mac to do Science in 2018</a></li>
-    
     <li><a href="/post/getting-r-with-tcl-tk-on-my-mac/">How I got R with tcl-tk on my Mac</a></li>
+    
+    <li><a href="/post/setting-up-my-mac-for-science/">How I setup my Mac to do Science in 2018</a></li>
     
     <li><a href="/post/my-hugo-2-github-setup/">How I maintain my Hugo-based website on GitHub</a></li>
     

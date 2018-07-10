@@ -198,8 +198,10 @@
 
   <span class="article-date">
     
+        Last updated on
+    
     <time datetime="2018-02-06 00:00:00 &#43;0100 CET" itemprop="datePublished">
-      Feb 6, 2018
+      Jul 10, 2018
     </time>
   </span>
 
@@ -361,9 +363,9 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin</p>
 5. Now that I had confirmed the basics are present, I proceeded by re-installing <code>Xquartz</code>, <code>R</code> and <code>RStudio</code>. To make sure I get the <code>R</code> <em>with</em> <code>tcl-tk</code> I used the R version of <a href="https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/15" target="_blank">@srfore</a>. These are the subsequent commands.</p>
 
 <ul>
-<li><code>brew cask reinstall xquartz</code>, re-install <code>Xquartz</code>.</li>
-<li><code>brew reinstall -s sethrfore/homebrew-r-srf/r</code>, installed a edited version of <code>R</code>.</li>
-<li><code>brew cask reinstall rstudio</code>, re-installe <code>Rstudio</code>.
+<li><code>brew cask install xquartz</code>, install <code>Xquartz</code>. Although some suggested this should not be necessary.</li>
+<li><code>brew install -s sethrfore/homebrew-r-srf/r</code>, installed an edited version of <code>R</code>.</li>
+<li><code>brew cask install rstudio</code>, install <code>Rstudio</code>.
 <br /></li>
 </ul>
 
