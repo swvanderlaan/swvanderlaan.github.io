@@ -340,16 +340,16 @@ Many other programs, such <a href="https://choishingwan.github.io/PRSice/" targe
 </ol>
 
 <blockquote>
-<p>##fileformat=VCFv4.2
-##FORMAT=<ID=GT,Type=String,Number=1,Description="Genotype">
-##FORMAT=<ID=DS,Type=Float,Number=1,Description="Estimated Alternate Allele Dosage : [P(0/1)+2*P(1/1)]">
-##FORMAT=<ID=GP,Type=Float,Number=3,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
-#CHROM POS ID REF ALT QUAL FILTER INFO FORMAT SAMPLE_1
-6 89961 6:89961,. G A &hellip; DS:GP:GT 0:1,0,0:0|0
-6 100100 6:100100,. G T &hellip; DS:GP:GT 0:1,0,0:0|0
-6 100112 6:100112,. C A &hellip; DS:GP:GT 0:1,0,0:0|0
-6 145579 6:145579,. G A &hellip; DS:GP:GT 0:1,0,0:0|0
-6 147651 6:147651,. A C &hellip; DS:GP:GT 0.001:0.999,0.001,0:0|0</p>
+<p>##fileformat=VCFv4.2<br/>
+##FORMAT=<ID=GT,Type=String,Number=1,Description="Genotype"><br/>
+##FORMAT=<ID=DS,Type=Float,Number=1,Description="Estimated Alternate Allele Dosage : [P(0/1)+2*P(1/1)]"><br/>
+##FORMAT=<ID=GP,Type=Float,Number=3,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 "><br/>
+#CHROM POS ID REF ALT QUAL FILTER INFO FORMAT SAMPLE_1<br/>
+6 89961 6:89961,. G A &hellip; DS:GP:GT 0:1,0,0:0|0<br/>
+6 100100 6:100100,. G T &hellip; DS:GP:GT 0:1,0,0:0|0<br/>
+6 100112 6:100112,. C A &hellip; DS:GP:GT 0:1,0,0:0|0<br/>
+6 145579 6:145579,. G A &hellip; DS:GP:GT 0:1,0,0:0|0<br/>
+6 147651 6:147651,. A C &hellip; DS:GP:GT 0.001:0.999,0.001,0:0|0<br/></p>
 </blockquote>
 
 <p>Because of the slightly different file-format, a datamanagement-program like <a href="http://www.well.ox.ac.uk/~gav/qctool/" target="_blank">QCTOOL</a> can <em>read</em> and even <em>merge</em> files like this, but converting to another format (be it <code>.bgen</code>, <code>.gen</code>, or <code>.vcf</code>) it will not.</p>
