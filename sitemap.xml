@@ -59,6 +59,15 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/post/thoughts-on-genetics/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</loc>
       <lastmod>2018-07-10T00:00:00+02:00</lastmod>
     </url>
@@ -640,8 +649,28 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/tags/genome-wide-association-studies/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/tags/genome-wide-association-study/</loc>
       <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/genomics/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -661,7 +690,7 @@
     <url>
     
       <loc>https://swvanderlaan.github.io/tags/gwas/</loc>
-      <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -870,6 +899,36 @@
     
     <url>
     
+      <loc>https://swvanderlaan.github.io/tags/polygenic/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/polygenic-risk-scores/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/polygenic-scores/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://swvanderlaan.github.io/tags/pqtl/</loc>
       <lastmod>2017-10-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -892,6 +951,16 @@
     
       <loc>https://swvanderlaan.github.io/tags/protein-truncating-variation/</loc>
       <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://swvanderlaan.github.io/tags/prs/</loc>
+      <lastmod>2018-07-10T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
