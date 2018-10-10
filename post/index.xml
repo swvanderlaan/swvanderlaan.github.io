@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book</title>
+      <link>https://swvanderlaan.github.io/post/thoughts-on-genetics/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/post/thoughts-on-genetics/</guid>
+      <description>Background Twitter. I have a love-hate affair with it, but when it comes to science I #loveit. It is great to keep track of some influencers, like Mark McCarthy, Cecile Janssens, Eric Topol, Cecilia Lindgren, or Sek Kathiresan. I learn a lot from their work, their views on new science, etc. Likewise, I follow Ewan Birney, director at EMBL-EBI. He has a – excellent – habit to take a subject and produce a nice summarising thread.</description>
+    </item>
+    
+    <item>
       <title>Tackling post-Michigan Imputation Server troubles</title>
       <link>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
@@ -20,15 +29,6 @@
       <guid>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</guid>
       <description>Background When meta-analysing many genome-wide association studies a lack of overlap [in terms of variants] between genotyping platforms lowers power. However, imputation of missing genotypes, i.e. untyped across all individuals or missing in a few, using HapMap 2, 1000G, Haplotype Reference Consortium (HRC), or Genome of the Netherlands (GoNL5) as reference ensures &amp;gt;99% overlap and significantly increases power.
 As cohort sizes increase, the latest development is cloud-based imputation using phased data from 1000G phase 3 or HRC as a reference, such as available at the Michigan Imputation Server.</description>
-    </item>
-    
-    <item>
-      <title>Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book</title>
-      <link>https://swvanderlaan.github.io/post/thoughts-on-genetics/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/post/thoughts-on-genetics/</guid>
-      <description>Background Twitter. I have a love-hate affair with it, but when it comes to science I #loveit. It is great to keep track of some influencers, like Mark McCarthy, Cecile Janssens, Eric Topol, Cecilia Lindgren, or Sek Kathiresan. I learn a lot from their work, their views on new science, etc. Likewise, I follow Ewan Birney, director at EMBL-EBI. He has a – excellent – habit to take a subject and produce a nice summarising thread.</description>
     </item>
     
     <item>
