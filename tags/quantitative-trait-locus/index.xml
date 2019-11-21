@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Quantitative Trait Locus on Van der Laan &amp; Science</title>
+    <title>quantitative-trait-locus on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/quantitative-trait-locus/</link>
-    <description>Recent content in Quantitative Trait Locus on Van der Laan &amp; Science</description>
+    <description>Recent content in quantitative-trait-locus on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/functional-genomics/</guid>
-      <description>[More information to follow]</description>
+      <description>Exploring the functional role of genetic risk loci of cardiovascular diseases and risk factors.</description>
     </item>
     
   </channel>

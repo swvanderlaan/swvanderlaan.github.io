@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tcl Tk on Van der Laan &amp; Science</title>
+    <title>tcl-tk on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/tcl-tk/</link>
-    <description>Recent content in Tcl Tk on Van der Laan &amp; Science</description>
+    <description>Recent content in tcl-tk on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
@@ -18,8 +18,7 @@
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</guid>
-      <description>Background Sometimes data is very skewed and contains a lot of &amp;lsquo;zeros&amp;rsquo; (or very small numbers approaching &amp;lsquo;zero&amp;rsquo;). Before analyses such data need normalisation to meet the assumptions of a statistical test (you can find more on transformation and normalisation here). Usually people log-transform (e.g. natural log, or log2), the disadvantage is that you loose the &amp;lsquo;zeros&amp;rsquo;.
-In my case that is an issue, because the measurements made were properly done (no technical issues), so &amp;lsquo;zero&amp;rsquo; really represents &amp;lsquo;zero&amp;rsquo;.</description>
+      <description>Setting up macOS El Capitan+ with R with tcl-tk using homebrew.</description>
     </item>
     
   </channel>

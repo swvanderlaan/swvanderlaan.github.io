@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Genome Wide Association Study on Van der Laan &amp; Science</title>
+    <title>genome-wide-association-study on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/genome-wide-association-study/</link>
-    <description>Recent content in Genome Wide Association Study on Van der Laan &amp; Science</description>
+    <description>Recent content in genome-wide-association-study on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/genetics/</guid>
-      <description>At the start of the Human Genome Project, its promise was to not deliver new druggable targets, rather to increase our knowledge of the human genome, its organisation and its contents. Now, decades later, and fuelled by advances in genotyping technology, genome-wide association studies (GWAS) have robustly associated thousands of variants to hundreds of traits and diseases. While these have vastly increased, and confirmed, our understanding of the genetic underpinnings of common diseases, such as coronary artery disease (CAD) and ischemic stroke, they fall short of precisely explaining the underlying biological mechanisms.</description>
+      <description>Investigations into the genetic architecture of cardiovascular diseases and their risk factors.</description>
     </item>
     
   </channel>

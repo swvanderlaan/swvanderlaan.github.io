@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Van der Laan &amp; Science</title>
@@ -18,7 +18,7 @@
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/thoughts-on-genetics/</guid>
-      <description>Background Twitter. I have a love-hate affair with it, but when it comes to science I #loveit. It is great to keep track of some influencers, like Mark McCarthy, Cecile Janssens, Eric Topol, Cecilia Lindgren, or Sek Kathiresan. I learn a lot from their work, their views on new science, etc. Likewise, I follow Ewan Birney, director at EMBL-EBI. He has a – excellent – habit to take a subject and produce a nice summarising thread.</description>
+      <description>Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</guid>
-      <description>Background When meta-analysing many genome-wide association studies a lack of overlap [in terms of variants] between genotyping platforms lowers power. However, imputation of missing genotypes, i.e. untyped across all individuals or missing in a few, using HapMap 2, 1000G, Haplotype Reference Consortium (HRC), or Genome of the Netherlands (GoNL5) as reference ensures &amp;gt;99% overlap and significantly increases power.
-As cohort sizes increase, the latest development is cloud-based imputation using phased data from 1000G phase 3 or HRC as a reference, such as available at the Michigan Imputation Server.</description>
+      <description>Converting VCF-output from the Michigan Imputation Server to any other format.</description>
     </item>
     
     <item>
@@ -37,8 +36,7 @@ As cohort sizes increase, the latest development is cloud-based imputation using
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/</guid>
-      <description>Background Sometimes data is very skewed and contains a lot of &amp;lsquo;zeros&amp;rsquo; (or very small numbers approaching &amp;lsquo;zero&amp;rsquo;). Before analyses such data need normalisation to meet the assumptions of a statistical test (you can find more on transformation and normalisation here). Usually people log-transform (e.g. natural log, or log2), the disadvantage is that you loose the &amp;lsquo;zeros&amp;rsquo;.
-In my case that is an issue, because the measurements made were properly done (no technical issues), so &amp;lsquo;zero&amp;rsquo; really represents &amp;lsquo;zero&amp;rsquo;.</description>
+      <description>Setting up macOS El Capitan+ with R with tcl-tk using homebrew.</description>
     </item>
     
     <item>
@@ -47,8 +45,7 @@ In my case that is an issue, because the measurements made were properly done (n
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/setting-up-my-mac-for-science/</guid>
-      <description>Background I prefer to use brew to install the &amp;lsquo;missing&amp;rsquo; libraries on macOS that come in handy, like weget, or imagemagick, or rename. In addition, I work on the analyses of histological slides, and for that I use slideToolkit which also requires brew on macOS.
-So, I thought, &amp;ldquo;might as well go full monty&amp;rdquo; and install R and RStudio using brew. This provides me with a powerful method to control many packages/libraries that are needed for macOS and at the same time creates a very clean R environment on my Mac.</description>
+      <description>Setting up macOS El Capitan+ to do Science in 2018 with homebrew.</description>
     </item>
     
     <item>
@@ -57,7 +54,7 @@ So, I thought, &amp;ldquo;might as well go full monty&amp;rdquo; and install R a
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/my-hugo-2-github-setup/</guid>
-      <description>Background I wanted to create this website and make it fast and easy for me to update it. I learned of jekyll via GitHub, but also learned that hugo works much faster to enhance my personal website. With hugo I would still be able to use Github Pages to host the generated html files (in the Public folder). Googling I discovered several methods (the hugo-method wasn&amp;rsquo;t working for me either) which were not directly intuitive to me; in the end I found this post by Cheng-Jun Wang to be most helpful and best match my needs.</description>
+      <description>Understanding hugo 2 github static site building.</description>
     </item>
     
     <item>
@@ -66,8 +63,7 @@ So, I thought, &amp;ldquo;might as well go full monty&amp;rdquo; and install R a
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/my-first-post/</guid>
-      <description>Today marks the day of re-inventing my academic self. As the genetics community ushers in what some refer to as the post-GWAS era, I feel things are falling to place for me. In the last couple of weeks, I&amp;rsquo;ve been reading a lot and formulating my plans for the next 3-5 years. My key-interests will involve:
- Functional cardiovascular genomics, including quantitative trait loci analyses using expression, protein and methylation datasets; Cardiovascular genetics, including rare and common variant analyses, loss-of-function analyses; Causal inference using Mendelian randomisation; High-throughput imaging and analysis through machine-learning.</description>
+      <description>Find my own way.</description>
     </item>
     
   </channel>

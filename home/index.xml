@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Van der Laan &amp; Science</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
-    <lastBuildDate>Thu, 08 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swvanderlaan.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,10 @@
     <item>
       <title></title>
       <link>https://swvanderlaan.github.io/home/about/</link>
-      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/home/about/</guid>
-      <description>Biography I am an Assistant Professor in the Laboratory of Clinical Chemistry and Hematology which is part of the Circulatory Health Program at the University Medical Center Utrecht and University of Utrecht and work with professor dr. Folkert W. Asselbergs and professor dr. Gerard Pasterkamp. My research interest is focused on the genetic and epigenetic causes of atherosclerosis underlying ischemic stroke subtypes, coronary artery disease (CAD) and abdominal aortic aneurysm (AAA), and intermediate traits such as carotid intima media thickness (cIMT) and arterial calcification.</description>
+      <description>Biography I am an assistant professor in the Central Diagnostics Laboratory which is part of the Circulatory Health Program at the University Medical Center Utrecht and University of Utrecht and work with professor dr. Folkert W. Asselbergs and professor dr. Gerard Pasterkamp. My research interest is focused on the genetic and epigenetic causes of carotid and coronary atherosclerosis underlying ischemic stroke (IS) and coronary artery disease (CAD), and their intermediate traits such as carotid intima media thickness (cIMT) and arterial calcification.</description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slidetoolkit on Van der Laan &amp; Science</title>
+    <title>slidetoolkit on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/slidetoolkit/</link>
-    <description>Recent content in Slidetoolkit on Van der Laan &amp; Science</description>
+    <description>Recent content in slidetoolkit on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/high-throughput-imaging/</guid>
-      <description>Since the start of the Athero-Express Biobank Study in 2002 we have collected atherosclerotic plaque samples of over 3,500 patients. Each of these samples have been stained for various plaque characteristics, including smooth muscle cells based on smooth-muscle cell actin (SMA), macrophages based on CD68, intraplaque hemorrhage, and intraplaque microvessels based on CD34 among others. The community standard is to analyze histological slides manually, with the downside of inter- and intra-observer variability leading to a &amp;ldquo;noisy&amp;rdquo; phenotype.</description>
+      <description>Applying machine-learning for the analysis of pathological slides.</description>
     </item>
     
   </channel>

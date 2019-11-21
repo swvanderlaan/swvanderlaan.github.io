@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Snptest on Van der Laan &amp; Science</title>
+    <title>SNPTEST on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/snptest/</link>
-    <description>Recent content in Snptest on Van der Laan &amp; Science</description>
+    <description>Recent content in SNPTEST on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
@@ -18,8 +18,7 @@
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/converting-m3vcf-to-anything-else/</guid>
-      <description>Background When meta-analysing many genome-wide association studies a lack of overlap [in terms of variants] between genotyping platforms lowers power. However, imputation of missing genotypes, i.e. untyped across all individuals or missing in a few, using HapMap 2, 1000G, Haplotype Reference Consortium (HRC), or Genome of the Netherlands (GoNL5) as reference ensures &amp;gt;99% overlap and significantly increases power.
-As cohort sizes increase, the latest development is cloud-based imputation using phased data from 1000G phase 3 or HRC as a reference, such as available at the Michigan Imputation Server.</description>
+      <description>Converting VCF-output from the Michigan Imputation Server to any other format.</description>
     </item>
     
   </channel>
