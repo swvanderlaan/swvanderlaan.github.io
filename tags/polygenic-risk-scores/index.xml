@@ -6,7 +6,7 @@
     <description>Recent content in polygenic risk scores on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 1979-2018 Sander W. van der Laan</copyright>
+    <copyright>&amp;copy; 1979-`{year}` Sander W. van der Laan</copyright>
     <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://swvanderlaan.github.io/tags/polygenic-risk-scores/index.xml" rel="self" type="application/rss+xml" />
