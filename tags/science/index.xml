@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>science on Van der Laan &amp; Science</title>
+    <title>Science on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/science/</link>
-    <description>Recent content in science on Van der Laan &amp; Science</description>
+    <description>Recent content in Science on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2019 Sander W. van der Laan</copyright>
@@ -18,7 +18,8 @@
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/my-first-post/</guid>
-      <description>Find my own way.</description>
+      <description>Today marks the day of re-inventing my academic self. As the genetics community ushers in what some refer to as the post-GWAS era, I feel things are falling to place for me. In the last couple of weeks, I&amp;rsquo;ve been reading a lot and formulating my plans for the next 3-5 years. My key-interests will involve:
+ Functional cardiovascular genomics, including quantitative trait loci analyses using expression, protein and methylation datasets; Cardiovascular genetics, including rare and common variant analyses, loss-of-function analyses; Causal inference using Mendelian randomisation; High-throughput imaging and analysis through machine-learning.</description>
     </item>
     
   </channel>

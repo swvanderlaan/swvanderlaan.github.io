@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Van der Laan &amp; Science</title>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/mendelian-randomisation/</guid>
-      <description>Causal inference through the use of genomics to identify putative druggable candidates.</description>
+      <description>Mendel&amp;rsquo;s Second Law, the law of independent assortment, underlies the principle of Mendelian randomisation (MR) which make use of the inherent properties of the human genome to enable causal inference for a biomarker. The invariant nature of the genome, and the random distribution of alleles from parents to offspring at the time of conception (Mendel&amp;rsquo;s Second Law), imply that the genetic information is not influenced by disease status or the presence of risk factors (reverse causality), therefore it should be free from confounding.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/genetics/</guid>
-      <description>Investigations into the genetic architecture of cardiovascular diseases and their risk factors.</description>
+      <description>At the start of the Human Genome Project, its promise was to not deliver new druggable targets, rather to increase our knowledge of the human genome, its organisation and its contents. Now, decades later, and fuelled by advances in genotyping technology, genome-wide association studies (GWAS) have robustly associated thousands of variants to hundreds of traits and diseases. While these have vastly increased, and confirmed, our understanding of the genetic underpinnings of common diseases, such as coronary artery disease (CAD) and ischemic stroke, they fall short of precisely explaining the underlying biological mechanisms.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/functional-genomics/</guid>
-      <description>Exploring the functional role of genetic risk loci of cardiovascular diseases and risk factors.</description>
+      <description>[More information to follow]</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/other/</guid>
-      <description>Other general work on human disease and its genetic and environmental risk factors.</description>
+      <description>[More information to follow]</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/high-throughput-imaging/</guid>
-      <description>Applying machine-learning for the analysis of pathological slides.</description>
+      <description>Since the start of the Athero-Express Biobank Study in 2002 we have collected atherosclerotic plaque samples of over 3,500 patients. Each of these samples have been stained for various plaque characteristics, including smooth muscle cells based on smooth-muscle cell actin (SMA), macrophages based on CD68, intraplaque hemorrhage, and intraplaque microvessels based on CD34 among others. The community standard is to analyze histological slides manually, with the downside of inter- and intra-observer variability leading to a &amp;ldquo;noisy&amp;rdquo; phenotype.</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Van der Laan &amp; Science</title>
+    <title>Hugo on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on Van der Laan &amp; Science</description>
+    <description>Recent content in Hugo on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2019 Sander W. van der Laan</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/my-hugo-2-github-setup/</guid>
-      <description>Understanding hugo 2 github static site building.</description>
+      <description>Background I wanted to create this website and make it fast and easy for me to update it. I learned of jekyll via GitHub, but also learned that hugo works much faster to enhance my personal website. With hugo I would still be able to use Github Pages to host the generated html files (in the Public folder). Googling I discovered several methods (the hugo-method wasn&amp;rsquo;t working for me either) which were not directly intuitive to me; in the end I found this post by Cheng-Jun Wang to be most helpful and best match my needs.</description>
     </item>
     
   </channel>

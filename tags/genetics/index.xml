@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>genetics on Van der Laan &amp; Science</title>
+    <title>Genetics on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/genetics/</link>
-    <description>Recent content in genetics on Van der Laan &amp; Science</description>
+    <description>Recent content in Genetics on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2019 Sander W. van der Laan</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/post/thoughts-on-genetics/</guid>
-      <description>Ewan Birney – On Genetics as a whole, and PRSs, and Robert Plomin’s book.</description>
+      <description>Background Twitter. I have a love-hate affair with it, but when it comes to science I #loveit. It is great to keep track of some influencers, like Mark McCarthy, Cecile Janssens, Eric Topol, Cecilia Lindgren, or Sek Kathiresan. I learn a lot from their work, their views on new science, etc. Likewise, I follow Ewan Birney, director at EMBL-EBI. He has a – excellent – habit to take a subject and produce a nice summarising thread.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/mendelian-randomisation/</guid>
-      <description>Causal inference through the use of genomics to identify putative druggable candidates.</description>
+      <description>Mendel&amp;rsquo;s Second Law, the law of independent assortment, underlies the principle of Mendelian randomisation (MR) which make use of the inherent properties of the human genome to enable causal inference for a biomarker. The invariant nature of the genome, and the random distribution of alleles from parents to offspring at the time of conception (Mendel&amp;rsquo;s Second Law), imply that the genetic information is not influenced by disease status or the presence of risk factors (reverse causality), therefore it should be free from confounding.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/genetics/</guid>
-      <description>Investigations into the genetic architecture of cardiovascular diseases and their risk factors.</description>
+      <description>At the start of the Human Genome Project, its promise was to not deliver new druggable targets, rather to increase our knowledge of the human genome, its organisation and its contents. Now, decades later, and fuelled by advances in genotyping technology, genome-wide association studies (GWAS) have robustly associated thousands of variants to hundreds of traits and diseases. While these have vastly increased, and confirmed, our understanding of the genetic underpinnings of common diseases, such as coronary artery disease (CAD) and ischemic stroke, they fall short of precisely explaining the underlying biological mechanisms.</description>
     </item>
     
   </channel>

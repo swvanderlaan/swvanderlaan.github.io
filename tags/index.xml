@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Van der Laan &amp; Science</title>
@@ -7,85 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2019 Sander W. van der Laan</copyright>
-    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://swvanderlaan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>genetics</title>
-      <link>https://swvanderlaan.github.io/tags/genetics/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://swvanderlaan.github.io/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swvanderlaan.github.io/tags/genetics/</guid>
+      <guid>https://swvanderlaan.github.io/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>Atherosclerosis</title>
+      <link>https://swvanderlaan.github.io/tags/atherosclerosis/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/atherosclerosis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>genome-wide association studies</title>
-      <link>https://swvanderlaan.github.io/tags/genome-wide-association-studies/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      <title>Cardiovascular</title>
+      <link>https://swvanderlaan.github.io/tags/cardiovascular/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swvanderlaan.github.io/tags/genome-wide-association-studies/</guid>
+      <guid>https://swvanderlaan.github.io/tags/cardiovascular/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>genomics</title>
-      <link>https://swvanderlaan.github.io/tags/genomics/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      <title>Cardiovascular Genetics</title>
+      <link>https://swvanderlaan.github.io/tags/cardiovascular-genetics/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swvanderlaan.github.io/tags/genomics/</guid>
+      <guid>https://swvanderlaan.github.io/tags/cardiovascular-genetics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>GWAS</title>
-      <link>https://swvanderlaan.github.io/tags/gwas/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/gwas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>polygenic</title>
-      <link>https://swvanderlaan.github.io/tags/polygenic/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/polygenic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>polygenic risk scores</title>
-      <link>https://swvanderlaan.github.io/tags/polygenic-risk-scores/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/polygenic-risk-scores/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>polygenic scores</title>
-      <link>https://swvanderlaan.github.io/tags/polygenic-scores/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/polygenic-scores/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PRS</title>
-      <link>https://swvanderlaan.github.io/tags/prs/</link>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/prs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>causal-inference</title>
+      <title>Causal Inference</title>
       <link>https://swvanderlaan.github.io/tags/causal-inference/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -94,34 +58,16 @@
     </item>
     
     <item>
-      <title>common-variant</title>
-      <link>https://swvanderlaan.github.io/tags/common-variant/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <title>Cellprofiler</title>
+      <link>https://swvanderlaan.github.io/tags/cellprofiler/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://swvanderlaan.github.io/tags/common-variant/</guid>
+      <guid>https://swvanderlaan.github.io/tags/cellprofiler/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>mendelian-randomisation</title>
-      <link>https://swvanderlaan.github.io/tags/mendelian-randomisation/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/mendelian-randomisation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rare-variant</title>
-      <link>https://swvanderlaan.github.io/tags/rare-variant/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/rare-variant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coding</title>
+      <title>Coding</title>
       <link>https://swvanderlaan.github.io/tags/coding/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -130,7 +76,133 @@
     </item>
     
     <item>
-      <title>homebrew</title>
+      <title>Common Variant</title>
+      <link>https://swvanderlaan.github.io/tags/common-variant/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/common-variant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://swvanderlaan.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eqtl</title>
+      <link>https://swvanderlaan.github.io/tags/eqtl/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/eqtl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expression</title>
+      <link>https://swvanderlaan.github.io/tags/expression/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/expression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine Mapping</title>
+      <link>https://swvanderlaan.github.io/tags/fine-mapping/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/fine-mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Genomics</title>
+      <link>https://swvanderlaan.github.io/tags/functional-genomics/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/functional-genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetics</title>
+      <link>https://swvanderlaan.github.io/tags/genetics/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/genetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genome Wide Association Studies</title>
+      <link>https://swvanderlaan.github.io/tags/genome-wide-association-studies/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/genome-wide-association-studies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genome Wide Association Study</title>
+      <link>https://swvanderlaan.github.io/tags/genome-wide-association-study/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/genome-wide-association-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomics</title>
+      <link>https://swvanderlaan.github.io/tags/genomics/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://swvanderlaan.github.io/tags/github/</link>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gwas</title>
+      <link>https://swvanderlaan.github.io/tags/gwas/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/gwas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haploinsufficiency</title>
+      <link>https://swvanderlaan.github.io/tags/haploinsufficiency/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/haploinsufficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Throughput Imaging</title>
+      <link>https://swvanderlaan.github.io/tags/high-throughput-imaging/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/high-throughput-imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homebrew</title>
       <link>https://swvanderlaan.github.io/tags/homebrew/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -139,7 +211,34 @@
     </item>
     
     <item>
-      <title>M3VCF</title>
+      <title>Html</title>
+      <link>https://swvanderlaan.github.io/tags/html/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://swvanderlaan.github.io/tags/hugo/</link>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loss of Variant</title>
+      <link>https://swvanderlaan.github.io/tags/loss-of-variant/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/loss-of-variant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M3vcf</title>
       <link>https://swvanderlaan.github.io/tags/m3vcf/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -148,7 +247,7 @@
     </item>
     
     <item>
-      <title>mac</title>
+      <title>Mac</title>
       <link>https://swvanderlaan.github.io/tags/mac/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -157,11 +256,38 @@
     </item>
     
     <item>
-      <title>macOS</title>
+      <title>Machine Learning</title>
+      <link>https://swvanderlaan.github.io/tags/machine-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macos</title>
       <link>https://swvanderlaan.github.io/tags/macos/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mendelian Randomisation</title>
+      <link>https://swvanderlaan.github.io/tags/mendelian-randomisation/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/mendelian-randomisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methylation</title>
+      <link>https://swvanderlaan.github.io/tags/methylation/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/methylation/</guid>
       <description></description>
     </item>
     
@@ -175,7 +301,34 @@
     </item>
     
     <item>
-      <title>Oxford-format</title>
+      <title>Mqtl</title>
+      <link>https://swvanderlaan.github.io/tags/mqtl/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/mqtl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://swvanderlaan.github.io/tags/news/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other</title>
+      <link>https://swvanderlaan.github.io/tags/other/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/other/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oxford Format</title>
       <link>https://swvanderlaan.github.io/tags/oxford-format/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -184,7 +337,7 @@
     </item>
     
     <item>
-      <title>PLINK</title>
+      <title>Plink</title>
       <link>https://swvanderlaan.github.io/tags/plink/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -193,7 +346,7 @@
     </item>
     
     <item>
-      <title>PLINK-format</title>
+      <title>Plink Format</title>
       <link>https://swvanderlaan.github.io/tags/plink-format/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -202,7 +355,7 @@
     </item>
     
     <item>
-      <title>PLINK2</title>
+      <title>Plink2</title>
       <link>https://swvanderlaan.github.io/tags/plink2/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -211,7 +364,61 @@
     </item>
     
     <item>
-      <title>QCTOOL</title>
+      <title>Polygenic</title>
+      <link>https://swvanderlaan.github.io/tags/polygenic/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/polygenic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygenic Risk Scores</title>
+      <link>https://swvanderlaan.github.io/tags/polygenic-risk-scores/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/polygenic-risk-scores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygenic Scores</title>
+      <link>https://swvanderlaan.github.io/tags/polygenic-scores/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/polygenic-scores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pqtl</title>
+      <link>https://swvanderlaan.github.io/tags/pqtl/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/pqtl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protein Truncating Variation</title>
+      <link>https://swvanderlaan.github.io/tags/protein-truncating-variation/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/protein-truncating-variation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prs</title>
+      <link>https://swvanderlaan.github.io/tags/prs/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/prs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qctool</title>
       <link>https://swvanderlaan.github.io/tags/qctool/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
       
@@ -220,29 +427,11 @@
     </item>
     
     <item>
-      <title>SNPTEST</title>
-      <link>https://swvanderlaan.github.io/tags/snptest/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      <title>Quantitative Trait Locus</title>
+      <link>https://swvanderlaan.github.io/tags/quantitative-trait-locus/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swvanderlaan.github.io/tags/snptest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VCF</title>
-      <link>https://swvanderlaan.github.io/tags/vcf/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/vcf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>https://swvanderlaan.github.io/tags/html/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/html/</guid>
+      <guid>https://swvanderlaan.github.io/tags/quantitative-trait-locus/</guid>
       <description></description>
     </item>
     
@@ -256,6 +445,24 @@
     </item>
     
     <item>
+      <title>Rare Variant</title>
+      <link>https://swvanderlaan.github.io/tags/rare-variant/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/rare-variant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk Factors</title>
+      <link>https://swvanderlaan.github.io/tags/risk-factors/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/risk-factors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rstudio</title>
       <link>https://swvanderlaan.github.io/tags/rstudio/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
@@ -265,205 +472,7 @@
     </item>
     
     <item>
-      <title>tcl-tk</title>
-      <link>https://swvanderlaan.github.io/tags/tcl-tk/</link>
-      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/tcl-tk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>atherosclerosis</title>
-      <link>https://swvanderlaan.github.io/tags/atherosclerosis/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/atherosclerosis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cardiovascular</title>
-      <link>https://swvanderlaan.github.io/tags/cardiovascular/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/cardiovascular/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cardiovascular-genetics</title>
-      <link>https://swvanderlaan.github.io/tags/cardiovascular-genetics/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/cardiovascular-genetics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>eqtl</title>
-      <link>https://swvanderlaan.github.io/tags/eqtl/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/eqtl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>expression</title>
-      <link>https://swvanderlaan.github.io/tags/expression/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/expression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fine-mapping</title>
-      <link>https://swvanderlaan.github.io/tags/fine-mapping/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/fine-mapping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>functional-genomics</title>
-      <link>https://swvanderlaan.github.io/tags/functional-genomics/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/functional-genomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>genome-wide-association-study</title>
-      <link>https://swvanderlaan.github.io/tags/genome-wide-association-study/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/genome-wide-association-study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>haploinsufficiency</title>
-      <link>https://swvanderlaan.github.io/tags/haploinsufficiency/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/haploinsufficiency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>loss-of-variant</title>
-      <link>https://swvanderlaan.github.io/tags/loss-of-variant/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/loss-of-variant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>methylation</title>
-      <link>https://swvanderlaan.github.io/tags/methylation/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/methylation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mqtl</title>
-      <link>https://swvanderlaan.github.io/tags/mqtl/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/mqtl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>other</title>
-      <link>https://swvanderlaan.github.io/tags/other/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/other/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pqtl</title>
-      <link>https://swvanderlaan.github.io/tags/pqtl/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/pqtl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>protein-truncating-variation</title>
-      <link>https://swvanderlaan.github.io/tags/protein-truncating-variation/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/protein-truncating-variation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>quantitative-trait-locus</title>
-      <link>https://swvanderlaan.github.io/tags/quantitative-trait-locus/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/quantitative-trait-locus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>risk factors</title>
-      <link>https://swvanderlaan.github.io/tags/risk-factors/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/risk-factors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://swvanderlaan.github.io/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://swvanderlaan.github.io/tags/github/</link>
-      <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://swvanderlaan.github.io/tags/hugo/</link>
-      <pubDate>Mon, 03 Oct 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>news</title>
-      <link>https://swvanderlaan.github.io/tags/news/</link>
-      <pubDate>Fri, 30 Sep 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>science</title>
+      <title>Science</title>
       <link>https://swvanderlaan.github.io/tags/science/</link>
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0200</pubDate>
       
@@ -472,47 +481,38 @@
     </item>
     
     <item>
-      <title>CellProfiler</title>
-      <link>https://swvanderlaan.github.io/tags/cellprofiler/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/cellprofiler/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep-learning</title>
-      <link>https://swvanderlaan.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>high-throughput-imaging</title>
-      <link>https://swvanderlaan.github.io/tags/high-throughput-imaging/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/high-throughput-imaging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine-learning</title>
-      <link>https://swvanderlaan.github.io/tags/machine-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://swvanderlaan.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>slidetoolkit</title>
+      <title>Slidetoolkit</title>
       <link>https://swvanderlaan.github.io/tags/slidetoolkit/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/tags/slidetoolkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snptest</title>
+      <link>https://swvanderlaan.github.io/tags/snptest/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/snptest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tcl Tk</title>
+      <link>https://swvanderlaan.github.io/tags/tcl-tk/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/tcl-tk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcf</title>
+      <link>https://swvanderlaan.github.io/tags/vcf/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://swvanderlaan.github.io/tags/vcf/</guid>
       <description></description>
     </item>
     

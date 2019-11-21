@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mendelian-randomisation on Van der Laan &amp; Science</title>
+    <title>Mendelian Randomisation on Van der Laan &amp; Science</title>
     <link>https://swvanderlaan.github.io/tags/mendelian-randomisation/</link>
-    <description>Recent content in mendelian-randomisation on Van der Laan &amp; Science</description>
+    <description>Recent content in Mendelian Randomisation on Van der Laan &amp; Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 1979-2019 Sander W. van der Laan</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://swvanderlaan.github.io/project/mendelian-randomisation/</guid>
-      <description>Causal inference through the use of genomics to identify putative druggable candidates.</description>
+      <description>Mendel&amp;rsquo;s Second Law, the law of independent assortment, underlies the principle of Mendelian randomisation (MR) which make use of the inherent properties of the human genome to enable causal inference for a biomarker. The invariant nature of the genome, and the random distribution of alleles from parents to offspring at the time of conception (Mendel&amp;rsquo;s Second Law), imply that the genetic information is not influenced by disease status or the presence of risk factors (reverse causality), therefore it should be free from confounding.</description>
     </item>
     
   </channel>
